@@ -6,7 +6,7 @@ from reportlab.pdfgen import canvas
 from io import BytesIO
 
 # Optional: Specify the tesseract executable path (especially on Windows)
-# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\python_programs\OCR_pdf_convertor\tessereact\tesseract.exe'
 # Define directories
 input_folder = 'answer_sheet'
 output_folder = 'extracted_pdfs'
